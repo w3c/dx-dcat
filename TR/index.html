@@ -41,7 +41,7 @@ table.simple {width:100%;}
     <p style="text-indent: 100px;">The namespace for DCAT terms is <code>http://www.w3.org/ns/dcat#</code></p>
     <p style="text-indent: 100px;">The suggested prefix for the DCAT namespace is <code>dcat</code></p>
 <!--    
-    <p style="text-indent: 100px;">The (revised) DCAT vocabulary is available <a href="https://w3c.github.io/dxwg/dcat/rdf/dcat.ttl">here</a>.</p>
+    <p style="text-indent: 100px;">The (revised) DCAT vocabulary is available <a href="https://w3c.github.io/dx-dcat/TR/rdf/dcat.ttl">here</a>.</p>
 -->    
 </section>
 
@@ -369,7 +369,7 @@ table.simple {width:100%;}
       </p>
 
       <p id="rdf-syntax">
-        All RDF examples in this document are written in Turtle syntax [[?Turtle]] and many are available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples">DXWG code repository</a>.
+        All RDF examples in this document are written in Turtle syntax [[?Turtle]] and many are available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples">DXWG code repository</a>.
       </p>
       
       <aside class="note">
@@ -700,7 +700,7 @@ ex:table-service-005
                 Guidance on the use DCAT in a weakly-axiomatized environment, such as schema.org, has been identified as a requirement to be satisfied in this revision of DCAT.
             </p>
             <p>
-                An <a href="https://w3c.github.io/dxwg/dcat/rdf/dcat-schema.ttl">RDF graph containing a proposed alignment of DCAT with schema.org</a> is available. Comments on this alignment are invited.
+                An <a href="https://w3c.github.io/dx-dcat/TR/rdf/dcat-schema.ttl">RDF graph containing a proposed alignment of DCAT with schema.org</a> is available. Comments on this alignment are invited.
             </p>
         </div-->
 
@@ -712,7 +712,7 @@ ex:table-service-005
             The axiomatization of DCAT 1 used global domain and range constraints for many of the properties defined in the DCAT namespace [[?VOCAB-DCAT-20140116]]. This makes quite strong ontological commitments, some of which are now being reconsidered - see individual issues noted inline below.
         </p-->
  <aside class="ednote">
-    <p>New RDF serializations will be made available for DCAT 3 in the official URIs as soon as DCAT 3 becomes REC. In the meanwhile, the DCAT 3 RDFs are available in the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/rdf">DXWG GitHub repository</a>: <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/rdf/dcat3.ttl">dcat3.ttl</a>, <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/rdf/dcat3.rdf">dcat3.rdf</a>, and <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/rdf/dcat3.jsonld">dcat3.jsonld</a></p>
+    <p>New RDF serializations will be made available for DCAT 3 in the official URIs as soon as DCAT 3 becomes REC. In the meanwhile, the DCAT 3 RDFs are available in the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/rdf">DXWG GitHub repository</a>: <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/rdf/dcat3.ttl">dcat3.ttl</a>, <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/rdf/dcat3.rdf">dcat3.rdf</a>, and <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/rdf/dcat3.jsonld">dcat3.jsonld</a></p>
     </aside>
         <p>The (revised) DCAT vocabulary is <a href="https://www.w3.org/ns/dcat#">available in RDF</a>.
             The primary artifact <a href="https://www.w3.org/ns/dcat.ttl"><code>dcat.ttl</code></a> is a serialization of the core DCAT vocabulary.
@@ -2508,7 +2508,7 @@ ex:table-service-005
 
         <!--backlog p class="issue" data-number="76">
             The need provide a more comprehensive method for describing dataset provenance has been identified as a requirement to be satisfied in the revision of DCAT.
-            A preliminary <a href="https://w3c.github.io/dxwg/dcat/rdf/dcat-prov.ttl">alignment of DCAT with PROV-O is available</a>.
+            A preliminary <a href="https://w3c.github.io/dx-dcat/TR/rdf/dcat-prov.ttl">alignment of DCAT with PROV-O is available</a>.
         </p-->
 
         <!--backlog p class="issue" data-number="84">
@@ -6133,7 +6133,7 @@ ex:Test543L
             <a href="https://www.w3.org/2015/spatial/wiki/ISO_19115_-_DCAT_-_Schema">Spatial Data on the Web Working Group</a>, building upon previous work.
         </p>
         <p>
-            A recommended mapping from the revised DCAT (this document) to [[?SCHEMA-ORG]] version 3.4 is <a href="https://w3c.github.io/dxwg/dcat/rdf/dcat-schema.ttl">available in an RDF file</a>.
+            A recommended mapping from the revised DCAT (this document) to [[?SCHEMA-ORG]] version 3.4 is <a href="https://w3c.github.io/dx-dcat/TR/rdf/dcat-schema.ttl">available in an RDF file</a>.
             This mapping is axiomatized using the predicates <code>rdfs:subClassOf</code>, <code>rdfs:subPropertyOf</code>, <code>owl:equivalentClass</code>, <code>owl:equivalentProperty</code>, <code>skos:closeMatch</code>,
             and also using the annotation properties <code>sdo:domainIncludes</code> and <code>sdo:rangeIncludes</code> to match [[?SCHEMA-ORG]] semantics. The alignment is summarized in the table below, considering the prefix <code>sdo</code> as <code>http://schema.org/</code>.
         </p>
@@ -6392,7 +6392,7 @@ ex:d33937-ttl  rdf:type dcat:Distribution ;
 </aside>
 
       <p>
-          This example is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/csiro-dap-examples.ttl"><code>csiro-dap-examples.ttl</code></a> and <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/csiro-stratchart_dcat3.ttl"><code>csiro-stratchart_dcat3.ttl</code></a>.
+          This example is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/csiro-dap-examples.ttl"><code>csiro-dap-examples.ttl</code></a> and <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/csiro-stratchart_dcat3.ttl"><code>csiro-stratchart_dcat3.ttl</code></a>.
       </p>
 
       <p>
@@ -6500,7 +6500,7 @@ dap:d33937
 </aside>
 
       <p>
-          This example is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/csiro-stratchart.ttl"><code>csiro-stratchart.ttl</code></a>.
+          This example is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/csiro-stratchart.ttl"><code>csiro-stratchart.ttl</code></a>.
       </p>
 
   </section>
@@ -6536,7 +6536,7 @@ dap:P366
 </aside>
 
       <p>
-          This example is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/csiro-dap-examples.ttl"><code>csiro-dap-examples.ttl</code></a>.
+          This example is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/csiro-dap-examples.ttl"><code>csiro-dap-examples.ttl</code></a>.
       </p>
       <p>
           Several properties capture provenance information, including within the citation and title, but the primary link to a formal description of the project is through <a href="#Property:dataset_was_generated_by"><code>prov:wasGeneratedBy</code></a>.
@@ -6582,7 +6582,7 @@ ex:globtherm
 </aside>
 
       <p>
-          This example is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/dryad-globtherm-sdata.ttl"><code>dryad-globtherm-sdata.ttl</code></a>
+          This example is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/dryad-globtherm-sdata.ttl"><code>dryad-globtherm-sdata.ttl</code></a>
       </p>
 
   </section>
@@ -6598,7 +6598,7 @@ ex:globtherm
           This is classified as a <a href="#Class:Data_Service"><code>dcat:DataService</code></a> and has the <code>dcterms:type</code> set to &quot;<a href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/discovery">discovery</a>&quot; from the INSPIRE classification of spatial data service types [[?INSPIRE-SDST]].
       </p>
       <p>
-          This example is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/eea-csw.ttl"><code>eea-csw.ttl</code></a>
+          This example is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/eea-csw.ttl"><code>eea-csw.ttl</code></a>
       </p>
 
 <aside id="ex-service-eea" class="example">
@@ -6639,7 +6639,7 @@ ex:EEA-CSW-Endpoint
           These are classified as a <a href="#Class:Data_Service"><code>dcat:DataService</code></a> and also have the <code>dcterms:type</code> set to &quot;<a href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/download">download</a>&quot; and &quot;<a href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">view</a>&quot; from the INSPIRE classification of spatial data service types [[?INSPIRE-SDST]].
       </p>
       <p>
-          <a href="#ex-service-gsa"></a> is available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/ga-courts.ttl"><code>ga-courts.ttl</code></a>
+          <a href="#ex-service-gsa"></a> is available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/ga-courts.ttl"><code>ga-courts.ttl</code></a>
       </p>
 
 <aside id="ex-service-gsa" class="example">
@@ -6766,7 +6766,7 @@ ga-courts:jc-wms
 </aside>
 
         <p>
-            These examples are available from the <a href="https://github.com/w3c/dxwg/tree/gh-pages/dcat/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dxwg/dcat/examples/vocab-dcat-3/compress-and-package.ttl"><code>compress-and-package.ttl</code></a>
+            These examples are available from the <a href="https://github.com/w3c/dx-dcat/tree/gh-pages/TR/examples/vocab-dcat-3">DXWG DCAT 3 code repository</a> at <a href="https://w3c.github.io/dx-dcat/TR/examples/vocab-dcat-3/compress-and-package.ttl"><code>compress-and-package.ttl</code></a>
         </p>
 
   </section>

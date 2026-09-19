@@ -15,7 +15,7 @@ var respecConfig = {
     previousPublishDate:  "2020-02-04",
     previousMaturity:     "REC",
 //    previousURI:          "https://www.w3.org/TR/2019/WD-vocab-dcat-2-20190528/",
-    edDraftURI:           "https://w3c.github.io/dxwg/dcat/",
+    edDraftURI:           "https://w3c.github.io/dx-dcat/TR/",
 //    issueBase:            "https://github.com/w3c/dxwg/issues/", -- Not needed when github used
     alternateFormats: [{
       label: "Turtle",
