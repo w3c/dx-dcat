@@ -7,7 +7,7 @@ var respecConfig = {
 //    specStatus: "ED",
 // specStatus: "CR",
     crEnd: "2024-02-15",
-    implementationReportURI: "https://w3c.github.io/dxwg/dcat3-implementation-report/",
+    implementationReportURI: "https://w3c.github.io/dx-dcat/dcat3-implementation-report/",
     shortName: "vocab-dcat-3",
     prevRecShortname: "vocab-dcat-2",
     canonicalURI: "TR",

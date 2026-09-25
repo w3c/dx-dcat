@@ -54,7 +54,7 @@ var respecConfig = {
  //   ]
 //  }],
   processVersion: 2019,
-  edDraftURI: "https://w3c.github.io/dxwg/dcat-implementation-report/",
+  edDraftURI: "https://w3c.github.io/dx-dcat/dcat-implementation-report/",
   shortName: "dcat-implementation-report",
   localBiblio: {
     "CiteDCAT-AP": {
