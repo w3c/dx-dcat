@@ -5,9 +5,9 @@ Previous transition at
 
 Data Catalog Vocabulary (DCAT) - Version 2
 
-current ED : https://w3c.github.io/dxwg/dcat/
+current ED : https://w3c.github.io/dx-dcat/TR/
 current CR : https://www.w3.org/TR/vocab-dcat-2
-Proposed: https://w3c.github.io/dxwg/dcat/?specStatus=PR;crEnd=2019-10-31;prEnd=2019-12-12;publishDate=2019-11-14
+Proposed: https://w3c.github.io/dx-dcat/TR/?specStatus=PR;crEnd=2019-10-31;prEnd=2019-12-12;publishDate=2019-11-14
 
 # Abstract
 
@@ -15,7 +15,7 @@ https://www.w3.org/TR/vocab-dcat-2/#abstract
 
 # Status
 
-https://w3c.github.io/dxwg/dcat/?specStatus=PR;crEnd=2019-10-31;prEnd=2019-12-12;publishDate=2019-11-14#sotd
+https://w3c.github.io/dx-dcat/TR/?specStatus=PR;crEnd=2019-10-31;prEnd=2019-12-12;publishDate=2019-11-14#sotd
 
 # Link to group's decision to request transition
 https://www.w3.org/2002/09/wbs/99375/dcat-to-pr/results
