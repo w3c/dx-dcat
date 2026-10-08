@@ -75,7 +75,7 @@ table.simple {width:100%;}
     <p>This version of DCAT, DCAT 3, was developed by the <a href="https://www.w3.org/2017/dxwg/">Dataset Exchange Working Group</a>, considering some of the more pressing use cases and requests among those left unaddressed in the previous standardization round.  A summary of the changes from [[?VOCAB-DCAT-2]] is provided in <a href="#changes"></a>. </p>
 
     <h3 id="external_terms">External terms</h3>
-    <p>DCAT incorporates terms from pre-existing vocabularies where stable terms with appropriate meanings could be found, such as <a href="http://xmlns.com/foaf/0.1/homepage"><code>foaf:homepage</code></a> and <a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a>.
+    <p>DCAT incorporates terms from pre-existing vocabularies where stable terms with appropriate meanings could be found, such as  <a data-cite="FOAF#term_homepage"><code>foaf:homepage</code></a> and <a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a>.
       Informal summary definitions of the externally-defined terms are included in the DCAT vocabulary for convenience, while authoritative definitions are available in the normative references.
       Changes to definitions in the references, if any, supersede the summaries given in this specification.
       Note that conformance to DCAT (<a href="#conformance"></a>) concerns usage of only the terms in the DCAT vocabulary specification, so possible changes to other external definitions will not affect the conformance of DCAT implementations.</p>
@@ -881,10 +881,11 @@ ex:table-service-005
             <h4>Property: homepage</h4>
 			
             <table class="def">
-                <tr><th>RDF Property:</th><td><a href="http://xmlns.com/foaf/0.1/homepage"><code>foaf:homepage</code></a></td></tr>
+                <tr><th>RDF Property:</th><td><a data-cite="FOAF#term_homepage"><code>foaf:homepage</code></a></td></tr>
+                <!--tr><th>RDF Property:</th><td><a href="http://xmlns.com/foaf/0.1/homepage"><code>foaf:homepage</code></a></td></tr-->
                 <tr><th class="prop">Definition:</th><td>A homepage of the catalog  (a public Web document usually available in HTML).</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://xmlns.com/foaf/0.1/Document"><code>foaf:Document</code></a></td></tr>
-                <tr><th class="prop">Usage note:</th><td><a href="http://xmlns.com/foaf/0.1/homepage"><code>foaf:homepage</code></a> is an inverse functional property (IFP) which means that it MUST be unique and precisely identify the Web-page for the resource. This property indicates the canonical Web-page, which might be helpful in cases where there is more than one Web-page about the resource.</td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="FOAF#term_Document"><code>foaf:Document</code></a></td></tr>
+                <tr><th class="prop">Usage note:</th><td><a data-cite="FOAF#term_homepage"><code>foaf:homepage</code></a> is an inverse functional property (IFP) which means that it MUST be unique and precisely identify the Web-page for the resource. This property indicates the canonical Web-page, which might be helpful in cases where there is more than one Web-page about the resource.</td></tr>
             </table>
         </section>
 
@@ -1197,8 +1198,8 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/creator"><code>dcterms:creator</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The entity responsible for producing the resource.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://xmlns.com/foaf/0.1/Agent"><code>foaf:Agent</code></a></td></tr>
-                <tr><th class="prop">Usage note:</th><td>Resources of type <a href="http://xmlns.com/foaf/0.1/Agent"><code>foaf:Agent</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="FOAF#term_Agent"><code>foaf:Agent</code></a></td></tr>
+                <tr><th class="prop">Usage note:</th><td>Resources of type <a data-cite="FOAF#term_Agent"><code>foaf:Agent</code></a>
                     are recommended as values for this property.</td></tr>
                 <tr><th class="prop">See also:</th><td><a href="#Class:Organization_Person"></a></td></tr>
                 </table>
@@ -1291,7 +1292,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/publisher"><code>dcterms:publisher</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The entity responsible for making the resource available.</td></tr>
-                <tr><th class="prop">Usage note:</th><td>Resources of type <a href="http://xmlns.com/foaf/0.1/Agent"><code>foaf:Agent</code></a>
+                <tr><th class="prop">Usage note:</th><td>Resources of type <a data-cite="FOAF#term_Agent"><code>foaf:Agent</code></a>
                     are recommended as values for this property.</td></tr>
                 <tr><th class="prop">See also:</th><td><a href="#Class:Organization_Person"></a></td></tr>
                 </table>
@@ -1489,8 +1490,8 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#landingPage"><code>dcat:landingPage</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.</td></tr>
-                <tr><th class="prop">Sub-property of:</th><td><a href="http://xmlns.com/foaf/0.1/page"><code>foaf:page</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://xmlns.com/foaf/0.1/Document"><code>foaf:Document</code></a></td></tr>
+                <tr><th class="prop">Sub-property of:</th><td><a data-cite="FOAF#term_page"><code>foaf:page</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="FOAF#term_Document"><code>foaf:Document</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>
                     If the distribution(s) are accessible only through a landing page
                     (i.e., direct download URLs are not known), then the landing page link SHOULD be duplicated as <code>dcat:accessURL</code> on a distribution. (see <a href="#example-landing-page"></a>)
@@ -2383,9 +2384,9 @@ ex:table-service-005
             <h4>Property: primary topic</h4>
 
             <table class="def">
-                <tr><th>RDF Property:</th><td><a href="http://xmlns.com/foaf/0.1/primaryTopic"><code>foaf:primaryTopic</code></a></td></tr>
+                <tr><th>RDF Property:</th><td><a data-cite="FOAF#term_primaryTopic"><code>foaf:primaryTopic</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The  <a href="#Class:Resource"><code>dcat:Resource</code></a> (dataset or service) described in the record.</td></tr>
-                <tr><th class="prop">Usage note:</th><td><a href="http://xmlns.com/foaf/0.1/primaryTopic"><code>foaf:primaryTopic</code></a> property is functional:
+                <tr><th class="prop">Usage note:</th><td><a data-cite="FOAF#term_primaryTopic"><code>foaf:primaryTopic</code></a> property is functional:
                     each catalog record can have at most one primary topic, i.e., describes one cataloged resource.</td></tr>
                 </table>
         </section>
@@ -3423,11 +3424,11 @@ ex:table-service-005
 <tr>
 <th>RDF Classes:</th>
 <td>
-<p><a href="http://xmlns.com/foaf/0.1/Person"><code>foaf:Person</code></a> (for people)</p>
-<p><a href="http://xmlns.com/foaf/0.1/Organization"><code>foaf:Organization</code></a> (for government agencies or other entities)</p>
+<p><a data-cite="FOAF#term_Person"><code>foaf:Person</code></a> (for people)</p>
+<p><a data-cite="FOAF#term_Organization"><code>foaf:Organization</code></a> (for government agencies or other entities)</p>
 </td>
 </tr>
-<tr><th class="prop">Sub-class of:</th><td><a href="http://xmlns.com/foaf/0.1/Agent"><code>foaf:Agent</code></a></td></tr>
+<tr><th class="prop">Sub-class of:</th><td><a data-cite="FOAF#term_Agent"><code>foaf:Agent</code></a></td></tr>
 <tr>
 <th class="prop">Usage note:</th>
 <td>[[!FOAF]] provides several properties to describe these entities.</td>
