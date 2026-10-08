@@ -896,7 +896,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#themeTaxonomy"><code>dcat:themeTaxonomy</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A knowledge organization system (KOS) used to classify  the resources documented in the catalog (e.g., datasets and services).</td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Catalog"><code>dcat:Catalog</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Resource"><code>rdfs:Resource</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_resource" title="http://www.w3.org/2000/01/rdf-schema#Resource"> <code>rdfs:Resource</code></a></td></tr>
                 <tr>
                   <th class="prop">
                     Usage note:
@@ -1220,7 +1220,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/description"><code>dcterms:description</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A free-text account of the resource.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -1230,7 +1230,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A name given to the resource.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -1239,7 +1239,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/issued"><code>dcterms:issued</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Date of formal issuance (e.g., publication) of the resource.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).
                 </td></tr>
                 <tr><th class="prop">Usage note:</th><td>This property SHOULD be set using the first known date of issuance.</td></tr>
@@ -1252,7 +1252,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/modified"><code>dcterms:modified</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Most recent date on which the resource was changed, updated or modified.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).
                 </td></tr>
                 <tr><th class="prop">Usage note:</th><td>The value of this property indicates a change to the actual resource, not a change to the catalog record. An absent value MAY indicate that the resource has never changed after its initial publication, or that the date of last modification is not known, or that the resource is continuously updated.</td></tr>
@@ -1303,7 +1303,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/identifier"><code>dcterms:identifier</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A unique identifier of the resource being described or cataloged.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>The identifier might be used as part of the IRI of the resource, but still having it represented explicitly is useful.</td></tr>
                 <tr><th class="prop">Usage note:</th><td>The identifier is a text string which is assigned to the resource to provide an unambiguous reference within a particular context.</td></tr>
                 </table>
@@ -1346,7 +1346,7 @@ ex:table-service-005
               <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/type"><code>dcterms:type</code></a></td></tr>
               <tr><th class="prop">Definition:</th><td>The nature or genre of the resource.</td></tr>
                 <tr><th class="prop">Sub-property of:</th><td><a href="http://purl.org/dc/elements/1.1/type"><code>dc:type</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Class"><code>rdfs:Class</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_class” title="http://www.w3.org/2000/01/rdf-schema#Class”><code>rdfs:Class</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>The value SHOULD be taken from a well governed and broadly recognised controlled vocabulary, such as:
                     <ol>
                         <li><a data-cite="?DCTERMS#section-7">DCMI Type vocabulary</a> [[?DCTERMS]]</li>
@@ -1473,7 +1473,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#keyword"><code>dcat:keyword</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A keyword or tag describing the resource.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -2341,7 +2341,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A name given to the record.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -2350,7 +2350,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/description"><code>dcterms:description</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A free-text account of the record.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -2359,7 +2359,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/issued"><code>dcterms:issued</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The date of listing (i.e., formal recording) of the corresponding dataset or service in the catalog.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).
                 </td></tr>
                 <tr><th class="prop">Usage note:</th><td>This indicates the date of listing the dataset in the catalog and not the publication date of the dataset itself.</td></tr>
@@ -2372,7 +2372,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/modified"><code>dcterms:modified</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Most recent date on which the catalog entry was changed, updated or modified.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).
                 </td></tr>
                 <tr><th class="prop">Usage note:</th><td>This indicates the date of last change of a catalog entry, i.e., the catalog metadata description of the dataset, and not the date of the dataset itself.</td></tr>
@@ -2619,7 +2619,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#spatialResolutionInMeters"><code>dcat:spatialResolutionInMeters</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Minimum spatial separation resolvable in a dataset, measured in meters.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typed as <a data-cite="XMLSCHEMA11-2#decimal"><code>xsd:decimal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typed as <a data-cite="XMLSCHEMA11-2#decimal"><code>xsd:decimal</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>If the dataset is an image or grid this should correspond to the spacing of items. For other kinds of spatial datasets, this property will usually indicate the smallest distance between items in the dataset.</td></tr>
                 </table>
 
@@ -2673,7 +2673,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#temporalResolution"><code>dcat:temporalResolution</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Minimum time period resolvable in the dataset.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typed as <a data-cite="XMLSCHEMA11-2#duration"><code>xsd:duration</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typed as <a data-cite="XMLSCHEMA11-2#duration"><code>xsd:duration</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>If the dataset is a time-series this should correspond to the spacing of items in the series. For other kinds of dataset, this property will usually indicate the smallest time difference between items in the dataset. </td></tr>
                 </table>
 
@@ -2896,7 +2896,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A name given to the distribution.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -2905,7 +2905,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/description"><code>dcterms:description</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A free-text account of the distribution.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a></td></tr>
                 </table>
         </section>
 
@@ -2914,7 +2914,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/issued"><code>dcterms:issued</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Date of formal issuance (e.g., publication) of the distribution.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).
                 </td></tr>
                 <tr><th class="prop">Usage note:</th><td>This property SHOULD be set using the first known date of issuance.</td></tr>
@@ -2927,7 +2927,7 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://purl.org/dc/terms/modified"><code>dcterms:modified</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>Most recent date on which the distribution was changed, updated or modified.</td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a>
                     encoded using the relevant ISO 8601 Date and Time compliant string [[?DATETIME]] and typed using the appropriate XML Schema datatype [[!XMLSCHEMA11-2]] (<a data-cite="XMLSCHEMA11-2#gYear"><code>xsd:gYear</code></a>, <a data-cite="XMLSCHEMA11-2#gYearMonth"><code>xsd:gYearMonth</code></a>, <a data-cite="XMLSCHEMA11-2#date"><code>xsd:date</code></a>, or <a data-cite="XMLSCHEMA11-2#dateTime"><code>xsd:dateTime</code></a>).</td></tr>
                 <tr><th class="prop">See also:</th><td><a href="#Property:resource_update_date"></a></td></tr>
                 </table>
@@ -3005,7 +3005,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#accessURL"><code>dcat:accessURL</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A URL of the resource that gives access to a distribution of the dataset. E.g., landing page, feed, SPARQL endpoint.</td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Distribution"><code>dcat:Distribution</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Resource"><code>rdfs:Resource</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_resource" title="http://www.w3.org/2000/01/rdf-schema#Resource"> <code>rdfs:Resource</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>
                 <p><a href="#Property:distribution_access_url"><code>dcat:accessURL</code></a> SHOULD be used for the URL of a service or location that can provide access to this distribution, typically through a Web form, query or API call.</p>
                 <p><a href="#Property:distribution_download_url"><code>dcat:downloadURL</code></a> is preferred for direct links to downloadable resources.</p>
@@ -3044,7 +3044,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#downloadURL"><code>dcat:downloadURL</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The URL of the downloadable file in a given format. E.g., CSV file or RDF file. The format is indicated by the distribution's <code>dcterms:format</code> and/or <code>dcat:mediaType</code></td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Distribution"><code>dcat:Distribution</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Resource"><code>rdfs:Resource</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_resource" title="http://www.w3.org/2000/01/rdf-schema#Resource"> <code>rdfs:Resource</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td><a href="#Property:distribution_download_url"><code>dcat:downloadURL</code></a> SHOULD be used for the URL at which this distribution is available directly, typically through a HTTP Get request.  </td></tr>
                 <tr><th class="prop">See also</th><td><a href="#Property:distribution_access_url"></a>, <a href="#Property:distribution_access_service"></a></td></tr>
                 </table>
@@ -3061,7 +3061,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#byteSize"><code>dcat:byteSize</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The size of a distribution in bytes.</td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Distribution"><code>dcat:Distribution</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typically typed as <a data-cite="XMLSCHEMA11-2#nonNegativeInteger"><code>xsd:nonNegativeInteger</code></a>.</td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_literal" title="http://www.w3.org/2000/01/rdf-schema#Literal"><code>rdfs:Literal</code></a> typically typed as <a data-cite="XMLSCHEMA11-2#nonNegativeInteger"><code>xsd:nonNegativeInteger</code></a>.</td></tr>
                 <tr><th class="prop">Usage note:</th><td>The size in bytes can be approximated (as a non-negative integer) when the precise size is not known.</td></tr>
                 <tr><th class="prop">Usage note:</th><td>While it is recommended that the size be given as an integer, alternative literals such as '1.5 MB' are sometimes used.</td></tr>
                 </table>
@@ -3337,7 +3337,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#endpointURL"><code>dcat:endpointURL</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>The root location or primary endpoint of the service (a Web-resolvable IRI).</td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Data_Service"><code>dcat:DataService</code></a> </td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Resource"><code>rdfs:Resource</code></a> </td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_resource" title="http://www.w3.org/2000/01/rdf-schema#Resource"> <code>rdfs:Resource</code></a> </td></tr>
             </table>
         </section>
 
@@ -3347,7 +3347,7 @@ ex:table-service-005
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#endpointDescription"><code>dcat:endpointDescription</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A description of the services available via the end-points, including their operations, parameters etc.</td></tr>
                 <tr><th class="prop">Domain:</th><td><a href="#Class:Data_Service"><code>dcat:DataService</code></a> </td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://www.w3.org/2000/01/rdf-schema#Resource"><code>rdfs:Resource</code></a> </td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="RDF-SCHEMA#ch_resource" title="http://www.w3.org/2000/01/rdf-schema#Resource"> <code>rdfs:Resource</code></a> </td></tr>
                 <tr><th class="prop">Usage note:</th><td>The endpoint description gives specific details of the actual endpoint instances, while <a href="#Property:resource_conforms_to"><code>dcterms:conformsTo</code></a> is used to indicate the general standard or specification that the endpoints implement.</td></tr>
                 <tr><th class="prop">Usage note:</th><td>An endpoint description may be expressed in a machine-readable form, such as an OpenAPI (Swagger) description [[?OpenAPI]], an OGC <code>GetCapabilities</code> response [[?WFS]], [[?ISO-19142]], [[?WMS]], [[?ISO-19128]], a SPARQL Service Description [[?SPARQL11-SERVICE-DESCRIPTION]], an [[?OpenSearch]] or [[?WSDL20]] document, a Hydra API description [[?HYDRA]], else in text or some other informal mode if a formal representation is not possible.</td></tr>
                 </table>
