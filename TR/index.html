@@ -75,7 +75,7 @@ table.simple {width:100%;}
     <p>This version of DCAT, DCAT 3, was developed by the <a href="https://www.w3.org/2017/dxwg/">Dataset Exchange Working Group</a>, considering some of the more pressing use cases and requests among those left unaddressed in the previous standardization round.  A summary of the changes from [[?VOCAB-DCAT-2]] is provided in <a href="#changes"></a>. </p>
 
     <h3 id="external_terms">External terms</h3>
-    <p>DCAT incorporates terms from preexisting vocabularies where stable terms with appropriate meanings could be found, such as <a href="http://xmlns.com/foaf/0.1/homepage"><code>foaf:homepage</code></a> and <a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a>.
+    <p>DCAT incorporates terms from preexisting vocabularies where stable terms with appropriate meanings could be found, such as <a data-cite="FOAF#term_homepage"><code>foaf:homepage</code></a> and <a href="http://purl.org/dc/terms/title"><code>dcterms:title</code></a>.
       Informal summary definitions of the externally-defined terms are included in the DCAT vocabulary for convenience, while authoritative definitions are available in the normative references.
       Changes to definitions in the references, if any, supersede the summaries given in this specification.
       Note that conformance to DCAT (<a href="#conformance"></a>) concerns usage of only the terms in the DCAT vocabulary specification, so possible changes to other external definitions will not affect the conformance of DCAT implementations.</p>
@@ -1490,8 +1490,8 @@ ex:table-service-005
             <table class="def">
                 <tr><th>RDF Property:</th><td><a href="http://www.w3.org/ns/dcat#landingPage"><code>dcat:landingPage</code></a></td></tr>
                 <tr><th class="prop">Definition:</th><td>A Web page that can be navigated to in a Web browser to gain access to the catalog, a dataset, its distributions and/or additional information.</td></tr>
-                <tr><th class="prop">Subproperty of:</th><td><a href="http://xmlns.com/foaf/0.1/page"><code>foaf:page</code></a></td></tr>
-                <tr><th class="prop">Range:</th><td><a href="http://xmlns.com/foaf/0.1/Document"><code>foaf:Document</code></a></td></tr>
+                <tr><th class="prop">Subproperty of:</th><td><a data-cite="FOAF#term_page"><code>foaf:page</code></a></td></tr>
+                <tr><th class="prop">Range:</th><td><a data-cite="FOAF#term_Document"><code>foaf:Document</code></a></td></tr>
                 <tr><th class="prop">Usage note:</th><td>
                     If the distribution(s) are accessible only through a landing page
                     (i.e., direct download URLs are not known), then the landing page link SHOULD be duplicated as <code>dcat:accessURL</code> on a distribution. (see <a href="#example-landing-page"></a>)
@@ -3428,7 +3428,7 @@ ex:table-service-005
 <p><a data-cite="FOAF#term_Organization"><code>foaf:Organization</code></a> (for government agencies or other entities)</p>
 </td>
 </tr>
-<tr><th class="prop">Subclass of:</th><td><a href="http://xmlns.com/foaf/0.1/Agent"><code>foaf:Agent</code></a></td></tr>
+<tr><th class="prop">Subclass of:</th><td><a data-cite="FOAF#term_Agent"><code>foaf:Agent</code></a></td></tr>
 <tr>
 <th class="prop">Usage note:</th>
 <td>[[!FOAF]] provides several properties to describe these entities.</td>
