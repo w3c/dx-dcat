@@ -7,7 +7,7 @@ var respecConfig = {
 //    specStatus: "ED",
 // specStatus: "CR",
     crEnd: "2024-02-15",
-    implementationReportURI: "https://w3c.github.io/dxwg/dcat3-implementation-report/",
+    implementationReportURI: "https://w3c.github.io/dx-dcat/dcat3-implementation-report/",
     shortName: "vocab-dcat-3",
     prevRecShortname: "vocab-dcat-2",
     canonicalURI: "TR",
@@ -15,7 +15,7 @@ var respecConfig = {
     previousPublishDate:  "2020-02-04",
     previousMaturity:     "REC",
 //    previousURI:          "https://www.w3.org/TR/2019/WD-vocab-dcat-2-20190528/",
-    edDraftURI:           "https://w3c.github.io/dxwg/dcat/",
+    edDraftURI:           "https://w3c.github.io/dx-dcat/TR/",
 //    issueBase:            "https://github.com/w3c/dxwg/issues/", -- Not needed when github used
     alternateFormats: [{
       label: "Turtle",

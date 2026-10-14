@@ -8,7 +8,7 @@ This repository contains the *Dataset Catalogue Vocabulary* (DCAT) work of the *
 
 ## DCAT Working Documents
 
-- [Editors' Draft](https://w3c.github.io/dx-dcat/dcat/)  
+- [Editors' Draft](https://w3c.github.io/dx-dcat/TR/)  
   - [Latest published version](https://www.w3.org/TR/vocab-dcat-3/)
   - [Fourth Public Working Draft (4PWD)](https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220510/)
   - [Third Public Working Draft (3PWD)](https://www.w3.org/TR/2022/WD-vocab-dcat-3-20220111/)
