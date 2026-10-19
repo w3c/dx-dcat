@@ -129,6 +129,7 @@
   dcterms:modified "2022-03-22"^^xsd:date ;
   dcterms:modified "2022-05-23"^^xsd:date ;
   dcterms:modified "2023-01-05"^^xsd:date ;
+  dcterms:modified "2026-10-19"^^xsd:date ;
   dcterms:publisher [
       a org:Organization;
       foaf:homepage <https://www.w3.org/>;
@@ -243,11 +244,11 @@ dcat:CatalogRecord
       owl:allValuesFrom dcat:Resource ;
       owl:onProperty foaf:primaryTopic ;
     ] ;
-  rdfs:subClassOf [
-      a owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty foaf:primaryTopic ;
-    ] ;
+  #rdfs:subClassOf [
+  #    a owl:Restriction ;
+  #    owl:cardinality "1"^^xsd:nonNegativeInteger ;
+  #    owl:onProperty foaf:primaryTopic ;
+  #  ] ;
   skos:definition "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja ;
   skos:definition "A record in a data catalog, describing the registration of a single dataset or data service."@en ;
   skos:definition "Un record in un catalogo di dati che descrive un singolo dataset o servizio di dati."@it ;
