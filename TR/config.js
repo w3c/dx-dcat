@@ -102,10 +102,10 @@ var respecConfig = {
     wgURI: "https://www.w3.org/2017/dxwg/",
     wgPatentURI: "https://www.w3.org/2004/01/pp-impl/99375/status",
 */    
-    wgPublicList: "public-dxwg-comments",
+   /* wgPublicList: "public-dxwg-comments",*/
     inlineCSS: "true",
     lint: "false",
-    github: "https://github.com/w3c/dxwg/",
+    github: "https://github.com/w3c/dx-dcat/",
     localBiblio: {
         "ADMS-SKOS":{
           "href":"https://web.archive.org/web/20210521035614/https://joinup.ec.europa.eu/svn/adms/ADMS_v1.00/ADMS_SKOS_v1.00.html",
